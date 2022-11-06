@@ -1,0 +1,194 @@
+[
+    {
+        "id": 1,
+        "image": "items/1.jpg",
+        "name": "Advent candles",
+        "description": "3 inch candlels, gold colored, set of 4",
+        "qty": 1,
+        "bin": {
+                "id": 1,
+                "name": "A1",
+                "location": "Storage Unit 106"
+               }
+    },
+    {
+        "id": 2,
+        "image": "items/2.jpg",
+        "name": "Wooden angel",
+        "description": "small wooden angel whimsical",
+        "qty": 8,
+        "bin": {
+                "id": 2,
+                "name": "A2",
+                "location": "Garage"
+               }
+    },
+    {
+        "id": 3,
+        "image": "items/3.jpg",
+        "name": "Flower lights",
+        "description": "multi-colored, flower shaped light string 100 ct.",
+        "qty": 4,
+        "bin": {
+                "id": 3,
+                "name": "A3",
+                "location": "Garage"
+               }
+    },
+    {
+        "id": 4,
+        "image": "items/4.jpg",
+        "name": "Green sequin ornaments",
+        "description": "foam balls with green sequins, medium sized, light green",
+        "qty": 20,
+        "bin": {
+                "id": 4,
+                "name": "A4",
+                "location": "Storage Unit 106"
+               }
+    },
+    {
+        "id": 5,
+        "image": "items/5.jpg",
+        "name": "Poinsettia glittered",
+        "description": "poinsetttia picks with red glitter on edges, small sized for filler",
+        "qty": 12,
+        "bin": {
+                "id": 5,
+                "name": "A1",
+                "location": "Storage Unit 106"
+               }
+    },
+    {
+        "id": 6,
+        "image": "items/6.jpg",
+        "name": "Small Holly berry picks",
+        "description": "small holly berry picks",
+        "qty": 8,
+        "bin": {
+                "id": 6,
+                "name": "A2",
+                "location": "Garage"
+               }
+    },
+    {
+        "id": 7,
+        "image": "items/7.jpg",
+        "name": "Red glass ornaments",
+        "description": "medium size red glass ornaments, satin sheen, gold tops",
+        "qty": 20,
+        "bin": {
+                "id": 7,
+                "name": "A3",
+                "location": "Garage"
+               }
+    },
+    {
+        "id": 8,
+        "image": "items/8.jpg",
+        "name": "Rocking horse ornament",
+        "description": "small wooden rocking horse, vintage",
+        "qty": 4,
+        "bin": {
+                "id": 8,
+                "name": "A4",
+                "location": "Storage Unit 106"
+               }
+    },
+    {
+        "id": 9,
+        "image": "items/9.jpg",
+        "name": "Silver glass ornament",
+        "description": "medium size silver glass ornaments, silver top, some shiny and some satin sheen",
+        "qty": 24,
+        "bin": {
+                "id": 9,
+                "name": "A1",
+                "location": "Storage Unit 106"
+               }
+    },
+    {
+        "id": 10,
+        "image": "items/10.jpg",
+        "name": "Glitter snowflake",
+        "description": "medium size white snowflake with glitter ornaments",
+        "qty": 10,
+        "bin": {
+                "id": 10,
+                "name": "A2",
+                "location": "Garage"
+               }
+    },
+    {
+        "id": 11,
+        "image": "items/11.jpg",
+        "name": "White String globe",
+        "description": "small white string ornaments, globe, transluscent",
+        "qty": 16,
+        "bin": {
+                "id": 11,
+                "name": "A3",
+                "location": "Garage"
+               }
+    },
+    {
+        "id": 12,
+        "image": "items/12.jpg",
+        "name": "Frosted white ornament",
+        "description": "small frosted white glass ornaments, silver top",
+        "qty": 24,
+        "bin": {
+                "id": 12,
+                "name": "A4",
+                "location": "Storage Unit 106"
+               }
+    },
+    {
+        "id": 13,
+        "image": "items/13.jpg",
+        "name": "White feather picks",
+        "description": "large white feather picks, 12 inches, 5 bundled in each pick",
+        "qty": 10,
+        "bin": {
+                "id": 13,
+                "name": "A1",
+                "location": "Storage Unit 106"
+               }
+    },
+    {
+        "id": 14,
+        "image": "items/14.jpg",
+        "name": "Pine cone wreath",
+        "description": "22 inch wreath, red ribbon, pine cones",
+        "qty": 2,
+        "bin": {
+                "id": 14,
+                "name": "A2",
+                "location": "Garage"
+               }
+    },
+    {
+        "id": 15,
+        "image": "items/15.jpg",
+        "name": "Pine cone wreath",
+        "description": "small wreath 12 inches, pine cone covered",
+        "qty": 4,
+        "bin": {
+                "id": 15,
+                "name": "A3",
+                "location": "Garage"
+               }
+    },
+    {
+        "id": 16,
+        "image": "items/16.jpg",
+        "name": "Ribbon wreath",
+        "description": "24 inch wreath, red ribbon winding, grapevine",
+        "qty": 1,
+        "bin": {
+                "id": 16,
+                "name": "A4",
+                "location": "Storage Unit 106"
+               }
+    }
+]
