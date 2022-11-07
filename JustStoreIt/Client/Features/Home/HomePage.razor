@@ -1,0 +1,31 @@
+@page "/"
+@inject HttpClient Http
+
+<PageTitle>Just Store It</PageTitle>
+
+@if (_items==null)
+{
+    <p>Loading items ...</p>
+}
+else
+{
+    <div class="outer-container">
+        @foreach (var bin in _items.bin)
+    </div>
+}
+
+@code {
+    private IEnumerable<Item>? _items;
+
+    protected override async task OnInitializedAsync()
+    {
+        try
+        {
+            _items = await Http.GetFromJsonAsync<IEnumerable<Item>>("items/items-data.json");
+        }
+        catch (HttpRequestException ex)
+        {
+            Console.WriteLine($"There was a problem loading trail data: {ex.Message}");
+        }
+    }
+}
