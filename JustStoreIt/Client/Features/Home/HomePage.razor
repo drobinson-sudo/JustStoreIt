@@ -3,29 +3,55 @@
 
 <PageTitle>Just Store It</PageTitle>
 
-@if (_items==null)
+@if (_bins==null)
 {
     <p>Loading items ...</p>
 }
 else
 {
-    <div class="outer-container">
-        @foreach (var bin in _items.bin)
+    <div class="container">
+        @foreach (var bin in _bins)
+        {
+            <div class="row h-25">
+                <div class="card shadow m-2">
+                    <div class="card-body">
+                        <span>
+                        <h5 class="card-title" style="display: inline">@bin.Name</h5>
+                        <h6 class="card-subtitle text-muted" style="display: inline">@bin.Location</h6>
+                        </span>
+                            <div class="row">            
+                                @foreach (var item in bin.Items)
+                                {
+                                    <div class="card shadow m-2 p-0 " style="width: 18rem;">
+                                        
+                                            <img src="@item.Image" class="card-img-top h-75 home-page-item-card">
+                                            <h6 class="text-overlay">@item.Qty</h6>
+                                        
+                                        <div class="card-body">
+                                            <h5 class="card-title">@item.Name</h5>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                    </div>
+                </div>
+            </div>
+        }
     </div>
 }
 
 @code {
-    private IEnumerable<Item>? _items;
-
-    protected override async task OnInitializedAsync()
+    private IEnumerable<Bin>? _bins;
+    
+    protected override async Task OnInitializedAsync()
     {
         try
         {
-            _items = await Http.GetFromJsonAsync<IEnumerable<Item>>("items/items-data.json");
+            _bins = await Http.GetFromJsonAsync<IEnumerable<Bin>>("items/items-data.json");
         }
         catch (HttpRequestException ex)
         {
-            Console.WriteLine($"There was a problem loading trail data: {ex.Message}");
+            Console.WriteLine($"There was a problem loading bin data: {ex.Message}");
         }
     }
 }

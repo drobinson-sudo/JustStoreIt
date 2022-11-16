@@ -52,6 +52,26 @@
       row-gap: 75px;
   }
 
+
+  /* creates the blurred text overlay area on homepage images
+      to display the item quantity 
+  */
+  .home-page-item-card {
+    position: relative;
+  }
+  .text-overlay {
+    position: absolute;
+    bottom: 4rem;
+    right: 0;
+    padding: 1rem;
+    font-size: 1rem;
+    color: white;
+    backdrop-filter: blur(5px) brightness(80%);
+    border-radius: 100%;
+  }
+
+  
+
 #blazor-error-ui {
     background: lightyellow;
     bottom: 0;
